@@ -1,0 +1,2 @@
+#!/bin/sh
+exec mono EcoServer.exe -nogui
