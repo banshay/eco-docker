@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-ADD https://eco-releases.s3.amazonaws.com/EcoServer_v0.7.0.8-beta.zip /tmp/
+ADD https://s3-us-west-2.amazonaws.com/eco-releases/EcoServer_v0.7.3.1-beta.zip /tmp/
 ADD startup /sbin/startup
 
 WORKDIR /tmp
