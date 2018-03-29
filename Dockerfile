@@ -4,8 +4,8 @@ ADD https://s3-us-west-2.amazonaws.com/eco-releases/EcoServer_v0.7.3.1-beta.zip 
 ADD startup /sbin/startup
 
 WORKDIR /tmp
-RUN apt update 
-    && apt install mono-complete unzip -y
+RUN apt update \
+    && apt install mono-complete unzip -y \
     && chmod 755 /sbin/startup \
     && mkdir -p /opt/eco \
     && unzip EcoServer*zip -d /opt/eco \
