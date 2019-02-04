@@ -13,6 +13,6 @@ ADD https://filebin.net/kuh1sopye7xmsrz4/EcoServer-8.zip?t=gdtcc02l /tmp/
 #WORKDIR /opt/eco
 #EXPOSE 3000-3001
 
-ENTRYPOINT ["/bin/sh", "--"]
+#ENTRYPOINT ["/bin/sh", "--"]
 #CMD ["/sbin/startup"]
 CMD ["echo hello"]
