@@ -1,6 +1,6 @@
 FROM mono:latest
 
-ADD https://filebin.net/kuh1sopye7xmsrz4/eco-server.zip?t=tgtiktna /tmp/EcoServer.zip
+ADD https://filebin.net/kuh1sopye7xmsrz4/EcoServer-8.zip?t=gdtcc02l /tmp/
 ADD startup /sbin/startup
 
 WORKDIR /tmp
