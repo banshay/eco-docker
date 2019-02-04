@@ -12,5 +12,4 @@ RUN apt update \
     && rm -f EcoServer*zip
 WORKDIR /opt/eco
 EXPOSE 3000-3001
-ENTRYPOINT ["/bin/sh", "--"]
 
