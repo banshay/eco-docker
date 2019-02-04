@@ -13,5 +13,4 @@ RUN apt update \
 WORKDIR /opt/eco
 EXPOSE 3000-3001
 ENTRYPOINT ["/bin/sh", "--"]
-CMD ["/sbin/startup"]
 
