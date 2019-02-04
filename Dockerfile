@@ -1,6 +1,6 @@
 FROM mono:latest
 
-ADD https://s3-us-west-2.amazonaws.com/eco-releases/EcoServer_v0.7.3.1-beta.zip /tmp/
+ADD https://filebin.net/kuh1sopye7xmsrz4/eco-server.zip?t=tgtiktna /tmp/EcoServer.zip
 ADD startup /sbin/startup
 
 WORKDIR /tmp
