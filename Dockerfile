@@ -5,7 +5,7 @@ ADD startup /sbin/startup
 RUN apt update \
     && chmod 755 /sbin/startup
 
-WORKDIR /ext/eco-server
+WORKDIR /ext/eco/
 EXPOSE 3000-3001
 
 ENTRYPOINT ["/bin/sh", "--"]
