@@ -15,4 +15,4 @@ ADD https://filebin.net/kuh1sopye7xmsrz4/EcoServer-8.zip?t=gdtcc02l /tmp/
 
 #ENTRYPOINT ["/bin/sh", "--"]
 #CMD ["/sbin/startup"]
-ENTRYPOINT ["/bin/bash"]
+CMD exec /bin/bash -c "trap : TERM INT; sleep infinity & wait"
