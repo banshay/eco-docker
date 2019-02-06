@@ -1,4 +1,4 @@
-FROM mono:latest
+FROM mono:5.14
 
 ADD startup /sbin/startup
 
